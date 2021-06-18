@@ -14,5 +14,5 @@ Created on Fri Jun 18 16:50:36 2021
 # =============================================================================
 distance_in_killometers = int(input("please Enter the distance in Kilometres:"))
 distance_in_miles = distance_in_killometers/0.6214
-format_string = "this distance  = {0} miles"  
+format_string = "the distance  = {0} miles"  
 print(format_string.format(distance_in_miles))
