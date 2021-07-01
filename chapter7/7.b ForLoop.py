@@ -9,3 +9,10 @@ for i in range(0,10):
     print(i, ' ',end=' ')
 print()
 print('Done')
+
+# Now use values in a range but increment by 2
+
+for i in range(0,10,2):
+    print(i, ' ',end=' ')
+print()
+print('Done')
