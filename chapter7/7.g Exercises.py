@@ -26,9 +26,7 @@ num = input("please Enter a number:")
 factorial = 1 
 if num.isnumeric():
     number= int(num)
-    if number < 0:
-        print('error!')
-    elif number == 0:
+    if number == 0:
         print('0! = 1')
     else:
         for i in range(1,number+1):
